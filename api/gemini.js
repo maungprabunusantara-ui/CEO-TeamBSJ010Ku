@@ -3,7 +3,7 @@
 // never exposed to the browser. The frontend calls this endpoint
 // (same-origin, no CORS issues) instead of Google's API directly.
 
-const GEMINI_MODEL = "gemini-2.5-flash";
+   const GEMINI_MODEL = "gemini-3.6-flash";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
